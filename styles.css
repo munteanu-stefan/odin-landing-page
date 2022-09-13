@@ -145,3 +145,32 @@ div.quote-text {
     font-size: 24px;
     font-weight: 800;
 }
+
+/********** Call to action **********/
+
+.call-to-action {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cta-container {
+    padding: 40px 150px;
+    border-radius: 12px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    gap: 120px;
+}
+
+.cta-container .sign-up {
+    border: #E5E7EB 2px solid;
+    padding: 12px 24px;
+}
+
+.cta-head {
+    font-size: 24px;
+    font-weight: 600;
+}
