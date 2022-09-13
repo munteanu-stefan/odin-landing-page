@@ -1,0 +1,90 @@
+/* * {
+    border: solid 1px red;
+} */
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    min-height: 100vh;
+}
+
+/********** Header **********/
+
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 8px 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.header a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.header ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    font-size: 18px;
+}
+
+/********* Hero **********/
+
+.hero {
+    background-color: #1F2937;
+    padding: 64px 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 550px;
+    max-width: 550px;
+    height: auto;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-bottom: 8px;
+}
+
+/* .hero-text,
+.hero-subtext {
+    flex-wrap: wrap;
+} */
+
+.sign-up {
+    max-width: 100px;
+    padding: 6px;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+}
+
+.hero img {
+    width: 400px;
+    height: auto;
+}
